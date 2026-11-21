@@ -12,16 +12,16 @@ severity: unknown
 confidence: low
 evidence_paths: []
 ---
-# ![RED](../../assets/icons/red.svg) FIND-001 — Ustalenie
+# FIND-001 — Kandydat na ustalenie: brak danych z testów
 
 ## Zaobserwowany fakt
-[wynik, nie hipoteza]
+Dostarczony PDF przedstawia plan utwardzenia Apache i scenariusz testów Kali. Nie zawiera wyników skanowania, odpowiedzi serwera, zrzutów ani logów wykonania. Nie zaobserwowano zatem potwierdzonej podatności.
 
 ## Interpretacja i potencjalny wpływ
-[dlaczego wynik może oznaczać podatność]
+Na podstawie planu nie można ocenić, czy porty, konfiguracja Apache, pliki WWW lub mechanizmy ochrony są podatne. Ten rekord nie stanowi potwierdzonego findingu bezpieczeństwa.
 
 ## Dowody
-[ścieżki do zanonimizowanych artefaktów lub odnośniki do kroków]
+Brak artefaktów z wykonania. Źródło planu: dostarczony dokument „Plan Utwardzania Serwera i Scenariusz Ataku.pdf”.
 
 ## Zalecenie i ograniczenia
-[co należałoby zweryfikować/naprawić]
+Po autoryzowanym teście zastąpić ten kandydat nowym rekordem albo zaktualizować go wyłącznie na podstawie zebranych faktów. Nie zgłaszać podatności bez reprodukowalnego dowodu.
