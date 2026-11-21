@@ -9,22 +9,22 @@ related_hardening_ids: [HARD-001]
 related_test_ids: [TEST-001]
 related_finding_ids: [FIND-001]
 ---
-# ![JOINT](../assets/icons/joint.svg) Joint Review — konfrontacja wyników
+# Joint Review — przegląd dokumentacji i statusu ćwiczenia
 
 ## Co Red wykrył, czego Blue nie przewidział?
-[opis, wskaż ID]
+Nie można tego ustalić: w przekazanym PDF jest scenariusz testowy, ale nie ma wyników pracy Red ani artefaktów potwierdzających wykrycie problemu.
 
 ## Co Blue zabezpieczył skutecznie?
-[opis, wskaż ID]
+Plan BLUE opisuje UFW, ograniczenie modułów i metod Apache, ochronę katalogu WWW oraz AppArmor. Skuteczność żadnego z tych zabezpieczeń nie została potwierdzona pomiarami.
 
 ## Co Red przeoczył / błędnie zinterpretował?
-[opis, wskaż ID]
+Brak wyników Red uniemożliwia ocenę. Nie należy traktować opisu możliwych ataków jako dowodu ich wykonania.
 
 ## Rozbieżności między intencją a stanem rzeczywistym
-[opis]
+Nieznane — brak konfiguracji rzeczywistej VM i logów. Należy porównać ustawienia hosta z HARD-001 oraz wyniki kontroli z TEST-001 po wykonaniu ćwiczenia.
 
 ## Weryfikacja ustaleń i wspólne decyzje
-[co potwierdzono, odrzucono, pozostawiono do sprawdzenia]
+Na obecnym etapie FIND-001 pozostaje niezweryfikowanym kandydatem informacyjnym, a nie podatnością. Nie ma podstaw do potwierdzenia sukcesu ataku ani skuteczności hardeningu.
 
 ## Zaplanowane poprawki i retesty
-[utwórz osobne rekordy poniżej; nie nadpisuj historii]
+Po zebraniu wyników utworzyć osobne rekordy remediation/retest. Nie zmieniać statusu planowanych działań na wykonane bez dowodów. Uzupełnić datę, docelową VM, logi i zanonimizowane artefakty.
