@@ -8,16 +8,16 @@ related_finding_ids: [FIND-001]
 status: planned
 retest_status: not_run
 ---
-# ![JOINT](../../assets/icons/joint.svg) REMED-001 — Naprawa i retest
+# REMED-001 — Plan naprawy i retestu
 
 ## Jaką zmianę wprowadzono?
-[opis]
+Nie wprowadzono zmian — nie ma potwierdzonego ustalenia ani logu z wdrożenia. Po zakończeniu testów określić działanie naprawcze na podstawie konkretnego, potwierdzonego wyniku.
 
 ## Kiedy i przez kogo?
-[rola, czas — bez danych osobowych]
+Do uzupełnienia podczas etapu JOINT; bez danych osobowych, z podaniem roli i czasu.
 
 ## Wynik retestu
-[potwierdzenie / negatywny / nierozstrzygnięty]
+Nie uruchomiono. Status `not_run`.
 
 ## Wnioski
-[opis]
+Nie zmieniać statusu na zakończony bez dowodu zmiany i ponownego testu. Jeżeli FIND-001 nie zostanie potwierdzony, zamknąć go odpowiednim nowym wpisem/uzasadnieniem zgodnym z historią ćwiczenia.
