@@ -1,0 +1,11 @@
+schema: cybersparring/v0.1
+session_id: CS-XXXX
+team_id: TEAM-XX
+scenario: "[krótki opis ćwiczenia]"
+red_id: RED-XX
+blue_id: BLUE-XX
+model: black-box
+started_at: "YYYY-MM-DDTHH:MM:SS+01:00"
+review_at: "YYYY-MM-DDTHH:MM:SS+01:00"
+consent_for_research: false
+notes: "Bez nazwisk i danych wrażliwych."
