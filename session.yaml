@@ -1,11 +1,11 @@
 schema: cybersparring/v0.1
 session_id: CS-XXXX
 team_id: TEAM-XX
-scenario: "[krótki opis ćwiczenia]"
+scenario: "Utwardzanie serwera Apache i kontrolowany test bezpieczeństwa z Kali Linux"
 red_id: RED-XX
 blue_id: BLUE-XX
 model: black-box
 started_at: "YYYY-MM-DDTHH:MM:SS+01:00"
 review_at: "YYYY-MM-DDTHH:MM:SS+01:00"
 consent_for_research: false
-notes: "Bez nazwisk i danych wrażliwych."
+notes: "Plan ćwiczenia opisany w PDF; CS-ID, zespół i terminy wymagają uzupełnienia. Brak potwierdzenia wykonania etapów."
