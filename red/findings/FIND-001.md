@@ -3,7 +3,7 @@ schema: cybersparring/v0.1
 type: finding
 team: red
 id: FIND-001
-session_id: CS-XXXX
+session_id: CS-01-S06
 target_id: SRV-001
 related_test_ids: [TEST-001]
 related_step_ids: [STEP-001]
