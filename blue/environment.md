@@ -5,7 +5,7 @@ team: blue
 id: ENV-001
 session_id: CS-01-S06
 target_id: SRV-001
-status: planned
+status: completed
 ---
 # Środowisko i punkt wyjścia
 
@@ -14,16 +14,16 @@ Plan zakłada minimalną instalację jednej z dystrybucji:
 - Debian 12 (Bookworm) Netinst, albo
 - Ubuntu Server 24.04 LTS Minimal.
 
-Docelową usługą jest Apache HTTP Server. Przewidziano UFW, ModSecurity (WAF), mod_evasive oraz AppArmor. PDF nie potwierdza, którą dystrybucję faktycznie zainstalowano ani jakie wersje pakietów działają.
+Docelową usługą jest Apache HTTP Server. Przewidziano UFW, ModSecurity (WAF), mod_evasive oraz AppArmor. Użytkownik potwierdził wykonanie prac po stronie BLUE. Nie przekazano jednak informacji o faktycznie użytej dystrybucji ani wersjach pakietów.
 
 ## Początkowy stan i powierzchnia ataku
-Stan początkowy nie został udokumentowany pomiarami. Do zebrania na własnej VM przed hardeningiem:
+Nie przekazano pomiarów stanu początkowego. W raporcie należy uzupełnić je z notatek, jeśli zostały zachowane:
 - system i wersje: `cat /etc/os-release`, `apache2 -v`;
 - usługi i porty: `sudo ss -tulpn`;
 - aktywne usługi: `systemctl --type=service --state=running`;
 - konfiguracja Apache: `sudo apache2ctl -S`, `sudo apache2ctl -M`.
 
-Nie wpisano adresu IP ani wyników poleceń, ponieważ PDF zawiera plan, a nie log z maszyny.
+Adres IP i wyniki poleceń pozostają nieudokumentowane w dostarczonych materiałach.
 
 ## Ograniczenia i założenia
 - Środowisko musi być odizolowane i jednoznacznie wskazane w `common/rules.md`.
