@@ -3,7 +3,7 @@ schema: cybersparring/v0.1
 type: joint_review
 team: joint
 id: REVIEW-001
-session_id: CS-XXXX
+session_id: CS-01-S06
 phase: review
 related_hardening_ids: [HARD-001]
 related_test_ids: [TEST-001]
