@@ -5,7 +5,7 @@ scenario: "Utwardzanie serwera Apache i kontrolowany test bezpieczeństwa z Kali
 red_id: RED-S06
 blue_id: BLUE-S06
 model: black-box
-started_at: "YYYY-MM-DDTHH:MM:SS+01:00"
-review_at: "YYYY-MM-DDTHH:MM:SS+01:00"
+started_at: "2026-11-18"
+review_at: "2026-11-18"
 consent_for_research: false
-notes: "Jedna osoba (Łukasz Trybuś) pełniła role RED i BLUE. Użytkownik potwierdził wykonanie prac BLUE; testy RED na serwerze docelowym zostały zablokowane, ponieważ druga strona nie przygotowała serwera. Szczegóły środowiska i terminy do uzupełnienia."
+notes: "Jedna osoba (Łukasz Trybuś) pełniła role RED i BLUE. Użytkownik potwierdził wykonanie prac BLUE; testy RED na serwerze docelowym zostały zablokowane, ponieważ druga strona nie przygotowała serwera. Data ćwiczenia: 18 listopada 2026 r. Godziny rozpoczęcia i przeglądu nie zostały podane."
