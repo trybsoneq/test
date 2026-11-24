@@ -3,7 +3,7 @@ schema: cybersparring/v0.1
 type: test_case
 team: red
 id: TEST-001
-session_id: CS-XXXX
+session_id: CS-01-S06
 target_id: SRV-001
 objective: "Ocena ekspozycji usług i podstawowego hardeningu Apache w autoryzowanej VM"
 status: planned
