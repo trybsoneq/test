@@ -1,11 +1,11 @@
 schema: cybersparring/v0.1
 session_id: CS-01-S06
-team_id: TEAM-XX
+team_id: TEAM-S06
 scenario: "Utwardzanie serwera Apache i kontrolowany test bezpieczeństwa z Kali Linux"
-red_id: RED-XX
-blue_id: BLUE-XX
+red_id: RED-S06
+blue_id: BLUE-S06
 model: black-box
 started_at: "YYYY-MM-DDTHH:MM:SS+01:00"
 review_at: "YYYY-MM-DDTHH:MM:SS+01:00"
 consent_for_research: false
-notes: "Użytkownik potwierdził wykonanie etapów BLUE i RED. Szczegółowe wyniki, dowody, system docelowy i terminy wymagają uzupełnienia na podstawie notatek z laboratorium."
+notes: "Jedna osoba (Łukasz Trybuś) pełniła role RED i BLUE. Użytkownik potwierdził wykonanie prac BLUE; testy RED na serwerze docelowym zostały zablokowane, ponieważ druga strona nie przygotowała serwera. Szczegóły środowiska i terminy do uzupełnienia."
