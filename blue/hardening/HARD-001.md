@@ -3,7 +3,7 @@ schema: cybersparring/v0.1
 type: hardening
 team: blue
 id: HARD-001
-session_id: CS-XXXX
+session_id: CS-01-S06
 target_id: SRV-001
 component: apache-host-hardening
 status: planned
