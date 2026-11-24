@@ -6,9 +6,9 @@ id: TEST-001
 session_id: CS-01-S06
 target_id: SRV-001
 objective: "Ocena ekspozycji usług i podstawowego hardeningu Apache w autoryzowanej VM"
-status: planned
+status: blocked
 expected: "Widoczne są wyłącznie uzgodnione usługi; konfiguracja HTTP nie ujawnia zbędnych informacji i odrzuca niedozwolone metody"
-actual: "Brak wyników pomiarów w dostarczonym PDF — zawiera on scenariusz, nie log wykonania"
+actual: "Test na planowanym serwerze docelowym nie mógł zostać przeprowadzony, ponieważ serwer nie został przygotowany przez drugą stronę — według relacji użytkownika."
 related_finding_ids: []
 ---
 # TEST-001 — Weryfikacja ekspozycji i konfiguracji WWW
@@ -29,6 +29,6 @@ related_finding_ids: []
 Sukces kontroli hardeningu: ekspozycja zgodna z uzgodnioną listą usług, brak ujawniania wersji Apache/OS, brak listowania katalogów oraz odrzucenie metod innych niż uzgodnione. Każde odstępstwo wymaga odrębnego, potwierdzonego dowodu i oceny wpływu.
 
 ## Wynik i ograniczenia
-Status: zaplanowany, nieuruchomiony według dostarczonych materiałów. Nie ma rzeczywistych wyników ani dowodów, więc nie można potwierdzić podatności ani skuteczności zabezpieczeń.
+Status: zablokowany. Użytkownik poinformował, że osoba odpowiedzialna za przygotowanie serwera docelowego nie przygotowała go, przez co test nie mógł zostać przeprowadzony na tym serwerze. Nie ma wyników skanowania ani dowodów, więc nie można potwierdzić podatności ani skuteczności zabezpieczeń.
 
 Nie wykonywać testów słownikowych Hydra, LFI, Command Injection, Shellshock, eskalacji uprawnień ani prób zapisu/modyfikacji strony bez odrębnej zgody prowadzącego i przeznaczonego do tego odtwarzalnego celu testowego.
