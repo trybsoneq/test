@@ -6,20 +6,20 @@ id: HARD-001
 session_id: CS-01-S06
 target_id: SRV-001
 component: apache-host-hardening
-status: planned
+status: completed
 verified: false
 related_test_ids: [TEST-001]
 ---
 # HARD-001 — Plan utwardzenia hosta i Apache
 
 ## Cel i uzasadnienie
-Zmniejszyć powierzchnię ataku serwera WWW, ograniczyć ruch przychodzący, ujawnić mniej informacji o serwerze oraz utrudnić modyfikację publikowanej strony przez proces serwera WWW. Jest to plan z PDF; brak potwierdzenia, że czynności wykonano.
+Zmniejszyć powierzchnię ataku serwera WWW, ograniczyć ruch przychodzący, ujawnić mniej informacji o serwerze oraz utrudnić modyfikację publikowanej strony przez proces serwera WWW. Użytkownik potwierdził wykonanie prac po stronie BLUE. Szczegółowych wyników poleceń ani artefaktów potwierdzających każdą zmianę nie dostarczono, dlatego verified pozostaje false.
 
 ## Stan przed zmianą
-Nieudokumentowany. Przed rozpoczęciem zebrać wersję systemu/Apache, listę usług i portów oraz kopię konfiguracji bez sekretów.
+Stan początkowy nie został opisany w przekazanych materiałach.
 
 ## Wykonane działania / plan działań
-Poniższe czynności są planem do wykonania i weryfikacji, nie opisem wykonanych zmian.
+Poniższe punkty odtwarzają zakres prac opisany w PDF i potwierdzony ogólnie przez użytkownika. Dokładna kolejność oraz wykonanie każdej komendy wymagają potwierdzenia w logach/notatkach.
 
 ### 1. Aktualizacja i usługi (0–15 min)
 Na Debian/Ubuntu w odizolowanej VM:
@@ -96,7 +96,7 @@ Włączać enforce tylko po potwierdzeniu właściwego profilu i po sprawdzeniu 
 PDF sugeruje ochronę GRUB hasłem i czyszczenie historii. Hasło GRUB należy skonfigurować zgodnie z dokumentacją dystrybucji i przechowywać poza repozytorium. Nie czyścić historii cudzych kont; przed przekazaniem stanowiska wylogować własną sesję i usunąć wyłącznie własne, potencjalnie wrażliwe dane zgodnie z zasadami laboratorium.
 
 ## Weryfikacja i wynik
-Nie wykonano weryfikacji na podstawie dostarczonego PDF. Po wdrożeniu zapisać:
+Użytkownik potwierdził wykonanie hardeningu, ale nie dostarczył wyników weryfikacji. Do raportu końcowego należy dołączyć dostępne wyniki:
 - `sudo ufw status verbose` i `sudo ss -tulpn`;
 - `sudo apache2ctl configtest` oraz `sudo apache2ctl -M`;
 - nagłówki HTTP oraz odpowiedzi na dozwolone i niedozwolone metody;
