@@ -7,21 +7,21 @@ session_id: CS-01-S06
 target_id: SRV-001
 related_test_ids: [TEST-001]
 related_step_ids: [STEP-001]
-status: unverified
+status: blocked
 severity: unknown
 confidence: low
 evidence_paths: []
 ---
-# FIND-001 — Kandydat na ustalenie: brak danych z testów
+# FIND-001 — Brak możliwości przeprowadzenia testu — nie jest to podatność
 
 ## Zaobserwowany fakt
-Dostarczony PDF przedstawia plan utwardzenia Apache i scenariusz testów Kali. Nie zawiera wyników skanowania, odpowiedzi serwera, zrzutów ani logów wykonania. Nie zaobserwowano zatem potwierdzonej podatności.
+Według relacji użytkownika osoba odpowiedzialna za przygotowanie serwera docelowego nie przygotowała go. W konsekwencji testy RED na tym serwerze nie mogły zostać przeprowadzone. Jest to przeszkoda organizacyjno-środowiskowa, a nie potwierdzona podatność techniczna.
 
 ## Interpretacja i potencjalny wpływ
-Na podstawie planu nie można ocenić, czy porty, konfiguracja Apache, pliki WWW lub mechanizmy ochrony są podatne. Ten rekord nie stanowi potwierdzonego findingu bezpieczeństwa.
+Nie ma podstaw do oceny portów, konfiguracji Apache, plików WWW ani mechanizmów ochrony. Rekord dokumentuje zablokowanie testu, nie finding podatności.
 
 ## Dowody
-Brak artefaktów z wykonania. Źródło planu: dostarczony dokument „Plan Utwardzania Serwera i Scenariusz Ataku.pdf”.
+Źródło: relacja użytkownika w rozmowie. Nie dostarczono logów ani artefaktów z serwera.
 
 ## Zalecenie i ograniczenia
 Po autoryzowanym teście zastąpić ten kandydat nowym rekordem albo zaktualizować go wyłącznie na podstawie zebranych faktów. Nie zgłaszać podatności bez reprodukowalnego dowodu.
