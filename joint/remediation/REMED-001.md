@@ -3,7 +3,7 @@ schema: cybersparring/v0.1
 type: remediation
 team: joint
 id: REMED-001
-session_id: CS-XXXX
+session_id: CS-01-S06
 related_finding_ids: [FIND-001]
 status: planned
 retest_status: not_run
