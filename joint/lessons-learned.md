@@ -3,7 +3,7 @@ schema: cybersparring/v0.1
 type: lessons_learned
 team: joint
 id: LESSONS-001
-session_id: CS-XXXX
+session_id: CS-01-S06
 phase: review
 ---
 # Lessons Learned — wnioski na podstawie planu
