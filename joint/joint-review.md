@@ -12,19 +12,19 @@ related_finding_ids: [FIND-001]
 # Joint Review — przegląd dokumentacji i statusu ćwiczenia
 
 ## Co Red wykrył, czego Blue nie przewidział?
-Nie można tego ustalić: w przekazanym PDF jest scenariusz testowy, ale nie ma wyników pracy Red ani artefaktów potwierdzających wykrycie problemu.
+RED nie mógł przeprowadzić testów, ponieważ serwer docelowy nie został przygotowany przez drugą stronę — według relacji użytkownika. Nie ma ustaleń technicznych.
 
 ## Co Blue zabezpieczył skutecznie?
-Plan BLUE opisuje UFW, ograniczenie modułów i metod Apache, ochronę katalogu WWW oraz AppArmor. Skuteczność żadnego z tych zabezpieczeń nie została potwierdzona pomiarami.
+Użytkownik potwierdził wykonanie prac BLUE. Szczegółowe wyniki weryfikacji nie zostały jednak przekazane, więc nie można niezależnie ocenić skuteczności zabezpieczeń.
 
 ## Co Red przeoczył / błędnie zinterpretował?
-Brak wyników Red uniemożliwia ocenę. Nie należy traktować opisu możliwych ataków jako dowodu ich wykonania.
+Testy RED zostały zablokowane przez brak przygotowanego serwera docelowego. Nie należy interpretować tego jako wyniku negatywnego testu bezpieczeństwa.
 
 ## Rozbieżności między intencją a stanem rzeczywistym
-Nieznane — brak konfiguracji rzeczywistej VM i logów. Należy porównać ustawienia hosta z HARD-001 oraz wyniki kontroli z TEST-001 po wykonaniu ćwiczenia.
+Główna rozbieżność: prace BLUE zostały wykonane, ale serwer, na którym miały odbyć się testy RED, nie został przygotowany przez drugą stronę.
 
 ## Weryfikacja ustaleń i wspólne decyzje
-Na obecnym etapie FIND-001 pozostaje niezweryfikowanym kandydatem informacyjnym, a nie podatnością. Nie ma podstaw do potwierdzenia sukcesu ataku ani skuteczności hardeningu.
+FIND-001 dokumentuje blokadę organizacyjno-środowiskową, nie podatność. Nie można potwierdzić sukcesu ataku ani skuteczności hardeningu bez wyników pomiarów.
 
 ## Zaplanowane poprawki i retesty
 Po zebraniu wyników utworzyć osobne rekordy remediation/retest. Nie zmieniać statusu planowanych działań na wykonane bez dowodów. Uzupełnić datę, docelową VM, logi i zanonimizowane artefakty.
