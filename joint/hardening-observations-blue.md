@@ -3,7 +3,7 @@ schema: cybersparring/v0.1
 type: reflection
 team: blue
 id: REF-BLUE-001
-session_id: CS-XXXX
+session_id: CS-01-S06
 phase: preparation
 ---
 # Blue — obserwacje z planowania hardeningu
